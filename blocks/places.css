@@ -22,7 +22,7 @@
   max-width: 738px;
 }
 
-.place__text {
+.places__text {
   max-width: 722px;
   margin: 32px 0 0;
 
@@ -49,7 +49,7 @@
     max-width: 720px;
   }
 
-  .place__text {
+  .places__text {
     max-width: 720px;
     margin: 32px 0 0;
   }
@@ -72,7 +72,7 @@
     max-width: 288px;
   }
 
-  .place__text {
+  .places__text {
     max-width: 288px;
   }
 }
