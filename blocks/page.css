@@ -1,0 +1,10 @@
+.page {
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "Inder", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+
+  background-color: #2a2c2f;
+  box-sizing: border-box;
+}

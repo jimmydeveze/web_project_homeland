@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.footer__copyright {
+  margin: 92px 0 24px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: right;
+}
