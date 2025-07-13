@@ -6,5 +6,5 @@ Creacion de una pagina de web de una galeria de arte de algunos mienbros de Trip
 
 ## Tecnologias:
 
-HTML para hacer la estructura del contenido de la pagina
-CSS para el diseño de la pagina con el uso de nuevas funciones
+- HTML para hacer la estructura del contenido de la pagina
+- CSS para el diseño de la pagina con el uso de nuevas funciones
