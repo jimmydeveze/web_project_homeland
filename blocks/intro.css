@@ -1,4 +1,4 @@
-.places {
+.intro {
   max-width: 984px;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   color: #ffffff;
 }
 
-.places__title {
+.intro__title {
   margin: 0;
   max-width: 830px;
 
@@ -18,7 +18,7 @@
   letter-spacing: 0%;
 }
 
-.places__text {
+.intro__text {
   max-width: 722px;
   margin: 32px 0 0;
 
@@ -29,11 +29,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places {
+  .intro {
     margin: 90px 24px 0;
   }
 
-  .places__title {
+  .intro__title {
     margin: 0;
     max-width: 707px;
 
@@ -41,18 +41,18 @@
     line-height: 49px;
   }
 
-  .places__text {
+  .intro__text {
     max-width: 720px;
     margin: 32px 0 0;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places {
+  .intro {
     margin: 64px 16px 0;
   }
 
-  .places__title {
+  .intro__title {
     margin: 0;
     max-width: 288px;
 
@@ -60,7 +60,7 @@
     line-height: 35px;
   }
 
-  .places__text {
+  .intro__text {
     max-width: 288px;
   }
 }
