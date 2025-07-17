@@ -8,8 +8,9 @@ Creacion de una pagina de web de una galeria de arte de algunos mienbros de Trip
 
 - HTML para hacer la estructura del contenido de la pagina
 - CSS para el diseño de la pagina con el uso de nuevas funciones
+  - Implementación de grid para el procesamiento de elementos en diferentes secciones de la página
 
---
+---
 
 Pagina:
 https://jimmydeveze.github.io/web_project_homeland/
