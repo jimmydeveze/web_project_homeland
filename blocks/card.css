@@ -1,0 +1,134 @@
+.card {
+  margin: 0 0 80px;
+  max-width: 984px;
+  max-height: 756px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto, auto);
+  column-gap: 40px;
+}
+
+.card__title {
+  margin: 0;
+
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.card__image {
+  margin: 48px 0;
+
+  max-width: 460px;
+  max-height: 460px;
+
+  width: 100%;
+  height: 100%;
+
+  box-shadow: 10px 10px 25px 0px #00000080;
+}
+
+.card__image:hover {
+  opacity: 50%;
+}
+
+.card__description {
+  margin: 48px 0 0;
+}
+
+.card__text {
+  margin: 0 0 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+}
+
+@media screen and (max-width: 956px) {
+  .card__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 831px) {
+  .card__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 720px;
+    max-height: 635px;
+
+    column-gap: 28px;
+  }
+
+  .card__title {
+    margin: 0;
+
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .card__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .card {
+    margin: 0 0 80px;
+    max-width: 630px;
+    max-height: 1261px;
+
+    grid-template-columns: repeat(1, 1fr);
+
+    grid-template-areas:
+      "title"
+      "artist"
+      "image "
+      "text"
+      "button";
+  }
+
+  .card__title {
+    grid-area: title;
+    margin: 0;
+
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .card__description {
+    grid-area: text;
+  }
+
+  .card__image {
+    grid-area: image;
+
+    max-width: 630px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    margin: 0 0 80px;
+    max-width: 320px;
+    max-height: 1261px;
+  }
+
+  .card__title {
+    margin: 0;
+
+    font-size: 32pxpx;
+    line-height: 35pxpx;
+  }
+
+  .card__image {
+    max-width: 320px;
+    max-height: 320px;
+  }
+}

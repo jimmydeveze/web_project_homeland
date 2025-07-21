@@ -1,0 +1,37 @@
+.artist {
+  margin: 85px 0 0;
+}
+
+.artist__title {
+  margin: 0 0 8px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.artist__text {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .artist {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .artist {
+    grid-area: artist;
+
+    margin-top: 30px;
+  }
+}
